@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coach Lu Baseball Training | Private Hitting, Fielding & Youth Development</title>
+  <meta name="description" content="Elite private 1-on-1 hitting and fielding instruction, small group sessions, homeschool daytime pods, monthly mini-camps, and virtual training with former High-A pro middle infielder Coach Lu Diaz." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Oswald', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              gold: '#D97706',
+              darkGold: '#B45309',
+              lightGold: '#F59E0B',
+              black: '#09090B',
+              charcoal: '#121215',
+              card: '#18181B',
+              silver: '#E4E4E7',
+              muted: '#A1A1AA'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #09090B;
+      color: #FFFFFF;
+    }
+    .metallic-text {
+      background: linear-gradient(180deg, #FFFFFF 0%, #E4E4E7 55%, #71717A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-glow {
+      box-shadow: 0 0 35px rgba(217, 119, 6, 0.28);
+    }
+    .card-hover {
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      border-color: #D97706;
+      box-shadow: 0 12px 30px -10px rgba(217, 119, 6, 0.35);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-brand-gold selection:text-black">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 bg-brand-black/90 backdrop-blur-md border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3 group">
+        <img src="coachlu.png" alt="Coach Lu Baseball Training Logo" class="h-12 w-auto object-contain" />
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-xl tracking-wider uppercase leading-none text-white group-hover:text-brand-lightGold transition-colors">Coach Lu</span>
+          <span class="text-[11px] font-semibold tracking-[0.2em] uppercase text-brand-silver">Baseball Training</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide uppercase text-brand-silver">
+        <a href="#about" class="hover:text-brand-lightGold transition-colors">Coach Bio</a>
+        <a href="#packages" class="hover:text-brand-lightGold transition-colors">Training Packages</a>
+        <a href="#camp" class="hover:text-brand-lightGold transition-colors">Mini-Camps Monthly</a>
+        <a href="#inquiry" class="hover:text-brand-lightGold transition-colors">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#packages" class="bg-brand-gold hover:bg-brand-darkGold text-black font-display font-bold uppercase tracking-wider text-sm px-5 py-2.5 rounded transition-all shadow-lg shadow-amber-900/30">
+          Book & Pay Now
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Background Video (coachlupmo.mp4) -->
+  <section id="top" class="relative overflow-hidden border-b border-zinc-800 bg-brand-black">
+    <!-- Full-Bleed Looping Background Video -->
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      preload="auto"
+      poster="coachlu.png"
+      class="absolute inset-0 w-full h-full object-cover object-[center_22%] opacity-60 pointer-events-none select-none"
+    >
+      <source src="coachlupmo.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Cinematic Dark Vignette & Readability Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-brand-black/95 via-brand-black/75 to-brand-black/55"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-brand-black/60"></div>
+    <div class="absolute inset-0 opacity-25 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-brand-gold via-transparent to-transparent"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-zinc-950/85 backdrop-blur-sm border border-zinc-700 text-xs font-semibold uppercase tracking-widest text-brand-silver">
+            <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+            Player Development &amp; Skill Instruction
+          </div>
+
+          <h1 class="font-display font-bold text-5xl sm:text-6xl lg:text-7xl uppercase tracking-tight leading-[0.95] drop-shadow-lg">
+            Pro-Level <span class="text-brand-lightGold">Hitting &amp; Infield</span> Development
+          </h1>
+
+          <p class="text-lg text-brand-silver max-w-2xl leading-relaxed drop-shadow">
+            Train with former High-A professional middle infielder <strong class="text-white">Coach Lu Diaz</strong>. High-rep, data-driven mechanics built for youth and travel players ready to elevate bat path, exit velocity, and middle-infield footwork.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#packages" class="bg-brand-gold hover:bg-brand-darkGold text-black font-display font-bold uppercase tracking-wider px-8 py-4 rounded text-base transition-all gold-glow">
+              Select Training Package
+            </a>
+            <a href="#inquiry" class="bg-zinc-950/85 hover:bg-zinc-900 backdrop-blur-sm border border-zinc-600 text-white font-display font-bold uppercase tracking-wider px-8 py-4 rounded text-base transition-all">
+              Schedule Evaluation
+            </a>
+          </div>
+
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-zinc-700/80 max-w-xl">
+            <div>
+              <p class="font-display font-bold text-2xl sm:text-3xl text-white">HIGH-A PRO</p>
+              <p class="text-xs uppercase tracking-wider text-brand-silver">Playing Pedigree</p>
+            </div>
+            <div>
+              <p class="font-display font-bold text-2xl sm:text-3xl text-brand-lightGold">2B MASTER</p>
+              <p class="text-xs uppercase tracking-wider text-brand-silver">Defensive Standout</p>
+            </div>
+            <div>
+              <p class="font-display font-bold text-2xl sm:text-3xl text-white">HIGH-REP</p>
+              <p class="text-xs uppercase tracking-wider text-brand-silver">Mechanics &amp; Footwork</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="bg-brand-card/90 backdrop-blur-md border border-zinc-700/80 rounded-2xl p-8 relative overflow-hidden shadow-2xl">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-brand-gold/15 rounded-bl-full"></div>
+            <div class="flex justify-center mb-6">
+              <img src="coachlu.png" alt="Coach Lu Baseball Training Emblem" class="h-36 w-auto object-contain drop-shadow-[0_10px_25px_rgba(217,119,6,0.35)]" />
+            </div>
+            <h2 class="font-display font-bold text-2xl uppercase text-center tracking-wide mb-2 text-white">Featured Training Options</h2>
+            <p class="text-sm text-brand-silver text-center mb-6">
+              Choose a monthly plan or individual training session tailored to your athlete's goals.
+            </p>
+            <div class="space-y-3 text-sm">
+              <div class="flex items-center justify-between p-3 rounded-lg bg-zinc-950/85 border border-zinc-800">
+                <span class="text-brand-silver font-medium">1-on-1 Private Membership</span>
+                <span class="font-display font-bold text-brand-lightGold text-base">$200 / mo</span>
+              </div>
+              <div class="flex items-center justify-between p-3 rounded-lg bg-zinc-950/85 border border-zinc-800">
+                <span class="text-brand-silver font-medium">Small Group (2–4 Players)</span>
+                <span class="font-display font-bold text-white text-base">$35 / session</span>
+              </div>
+              <div class="flex items-center justify-between p-3 rounded-lg bg-zinc-950/85 border border-zinc-800">
+                <span class="text-brand-silver font-medium">Homeschool Daytime Pod</span>
+                <span class="font-display font-bold text-white text-base">$25 / session</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Coach Lu -->
+  <section id="about" class="py-20 border-b border-zinc-800 bg-brand-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 items-start">
+        <!-- Coach Portrait & Bio Summary -->
+        <div class="lg:col-span-5 space-y-5">
+          <div class="bg-brand-card border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
+            <div class="aspect-square w-full overflow-hidden bg-zinc-900">
+              <img
+                src="coachluhead.jpg"
+                alt="Coach Lu Diaz portrait"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6 border-t border-zinc-800 space-y-2">
+              <div class="flex items-center justify-between gap-2">
+                <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Coach Lu Diaz</h3>
+                <span class="text-[11px] font-display font-bold uppercase tracking-widest px-2.5 py-1 rounded bg-brand-gold/15 text-brand-lightGold border border-brand-gold/40">
+                  Head Instructor
+                </span>
+              </div>
+              <p class="text-xs uppercase tracking-widest text-brand-silver font-semibold">
+                Former High-A Pro Middle Infielder • 2B Specialist
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <span class="text-brand-lightGold font-display font-bold uppercase tracking-widest text-sm">Coach Bio</span>
+            <h2 class="font-display font-bold text-4xl sm:text-5xl uppercase tracking-tight leading-none">
+              Built From <span class="metallic-text">Pro Experience</span>
+            </h2>
+            <p class="text-zinc-400 leading-relaxed text-sm sm:text-base">
+              Coach Lu brings authentic pro-level infield instincts, high-rep discipline, and modern hitting mechanics to every athlete he trains, helping players sharpen their swing and defensive consistency.
+            </p>
+          </div>
+        </div>
+
+        <!-- Credentials & Coaching Highlights -->
+        <div class="lg:col-span-7 grid sm:grid-cols-2 gap-5">
+          <div class="bg-brand-card border border-zinc-800 rounded-xl p-6 card-hover">
+            <div class="text-brand-lightGold font-display font-bold text-lg uppercase mb-1">JUCO, NCAA DII &amp; High-A Pro</div>
+            <p class="text-sm text-zinc-400 leading-relaxed">
+              Competed across Junior College, NCAA Division II, and High-A Professional baseball as a middle infielder specializing at second base.
+            </p>
+          </div>
+          <div class="bg-brand-card border border-zinc-800 rounded-xl p-6 card-hover">
+            <div class="text-brand-lightGold font-display font-bold text-lg uppercase mb-1">Defensive Player of the Year</div>
+            <p class="text-sm text-zinc-400 leading-relaxed">
+              Earned Independent League Defensive Player of the Year honors for elite glove work, range, and double-play turns.
+            </p>
+          </div>
+          <div class="bg-brand-card border border-zinc-800 rounded-xl p-6 card-hover">
+            <div class="text-brand-lightGold font-display font-bold text-lg uppercase mb-1">Travel, High School &amp; Youth Coaching</div>
+            <p class="text-sm text-zinc-400 leading-relaxed">
+              Experienced across travel baseball, high school programs, and youth player development with a focus on game readiness.
+            </p>
+          </div>
+          <div class="bg-brand-card border border-zinc-800 rounded-xl p-6 card-hover">
+            <div class="text-brand-lightGold font-display font-bold text-lg uppercase mb-1">Modern Player Development</div>
+            <p class="text-sm text-zinc-400 leading-relaxed">
+              Focused on efficient bat path, consistent barrel contact, exit velocity gains, and clean middle-infield footwork tailored to each athlete's age and frame.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training Packages with Direct Stripe Checkout Links -->
+  <section id="packages" class="py-20 border-b border-zinc-800 bg-brand-charcoal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-3">
+        <span class="text-brand-lightGold font-display font-bold uppercase tracking-widest text-sm">Instant Online Booking</span>
+        <h2 class="font-display font-bold text-4xl sm:text-5xl uppercase tracking-tight">
+          Training <span class="text-brand-lightGold">Packages &amp; Memberships</span>
+        </h2>
+        <p class="text-zinc-400">
+          Select your training option below to complete checkout via Stripe using Credit/Debit Card or supported digital wallets.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+        <!-- 1. Private 1-on-1 -->
+        <div class="bg-brand-card border-2 border-brand-gold rounded-2xl p-7 flex flex-col justify-between relative card-hover gold-glow">
+          <div class="absolute -top-3.5 right-6 bg-brand-gold text-black text-[11px] font-display font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+            Most Popular
+          </div>
+          <div>
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+              <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Private 1-on-1</h3>
+            </div>
+            <div class="flex items-baseline gap-1 mb-4">
+              <span class="font-display font-bold text-4xl text-white">$200</span>
+              <span class="text-sm font-semibold text-zinc-400">/ month</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-6">
+              Dedicated individual hitting and fielding development plan built specifically around your athlete's mechanics and game goals.
+            </p>
+            <ul class="space-y-2.5 text-sm text-brand-silver mb-8">
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Customized hitting &amp; infield curriculum</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Video breakdown &amp; bat path tracking</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Priority weekly scheduling slots</li>
+            </ul>
+          </div>
+          <a href="https://buy.stripe.com/8x25kE8b35dGczxeWy6Vq00" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-brand-gold hover:bg-brand-darkGold text-black font-display font-bold uppercase tracking-wider py-3.5 px-5 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <span>Checkout with Card</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <!-- 2. Sibling Package -->
+        <div class="bg-brand-card border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between card-hover">
+          <div>
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+              <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Sibling Package</h3>
+            </div>
+            <div class="flex items-baseline gap-1 mb-4">
+              <span class="font-display font-bold text-4xl text-white">$320</span>
+              <span class="text-sm font-semibold text-zinc-400">/ month</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-6">
+              Full monthly training access for two brothers or sisters in the same household at a discounted family rate.
+            </p>
+            <ul class="space-y-2.5 text-sm text-brand-silver mb-8">
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Covers 2 athletes from the same family</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Back-to-back or paired session work</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Saves $80/mo vs. separate memberships</li>
+            </ul>
+          </div>
+          <a href="https://buy.stripe.com/9B6bJ2gHz49C0QP5lY6Vq01" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-zinc-900 hover:bg-brand-gold border border-zinc-700 hover:border-brand-gold text-white hover:text-black font-display font-bold uppercase tracking-wider py-3.5 px-5 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <span>Checkout with Card</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <!-- 3. Small Group (2-4 Players) -->
+        <div class="bg-brand-card border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between card-hover">
+          <div>
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+              <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Small Group (2–4 Players)</h3>
+            </div>
+            <div class="flex items-baseline gap-1 mb-4">
+              <span class="font-display font-bold text-4xl text-white">$35</span>
+              <span class="text-sm font-semibold text-zinc-400">/ player</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-6">
+              High-tempo competitive reps with teammates or friends focusing on situational infield work and live cage rounds.
+            </p>
+            <ul class="space-y-2.5 text-sm text-brand-silver mb-8">
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> 2 to 4 players per training pod</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Double-play feeds &amp; live situational drills</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Competitive game-speed environment</li>
+            </ul>
+          </div>
+          <a href="https://buy.stripe.com/dRmeVe1MF6hKarp29M6Vq02" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-zinc-900 hover:bg-brand-gold border border-zinc-700 hover:border-brand-gold text-white hover:text-black font-display font-bold uppercase tracking-wider py-3.5 px-5 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <span>Checkout with Card</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <!-- 4. In-Home Personal Training -->
+        <div class="bg-brand-card border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between card-hover">
+          <div>
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+              <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">In-Home Personal Training</h3>
+            </div>
+            <div class="flex items-baseline gap-1 mb-4">
+              <span class="font-display font-bold text-4xl text-white">$75</span>
+              <span class="text-sm font-semibold text-zinc-400">/ session</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-6">
+              Coach Lu brings pro instruction directly to your home setup or cage for convenient, focused reps.
+            </p>
+            <ul class="space-y-2.5 text-sm text-brand-silver mb-8">
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Zero commute for busy parents</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Tee work, soft toss &amp; quick-hands drills</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Personalized one-on-one attention</li>
+            </ul>
+          </div>
+          <a href="https://buy.stripe.com/aFaeVe0IBeOgeHF5lY6Vq03" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-zinc-900 hover:bg-brand-gold border border-zinc-700 hover:border-brand-gold text-white hover:text-black font-display font-bold uppercase tracking-wider py-3.5 px-5 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <span>Checkout with Card</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <!-- 5. Homeschool Daytime Pod -->
+        <div class="bg-brand-card border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between card-hover">
+          <div>
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+              <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Homeschool Daytime Pod</h3>
+            </div>
+            <div class="flex items-baseline gap-1 mb-4">
+              <span class="font-display font-bold text-4xl text-white">$25</span>
+              <span class="text-sm font-semibold text-zinc-400">/ session</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-6">
+              Structured daytime athletic &amp; baseball skill sessions designed specifically for homeschool student-athletes.
+            </p>
+            <ul class="space-y-2.5 text-sm text-brand-silver mb-8">
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Daytime scheduling flexibility</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Agility, conditioning &amp; fundamentals</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Supports ongoing athletic development</li>
+            </ul>
+          </div>
+          <a href="https://buy.stripe.com/8x2dRaezr35y5756q26Vq04" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-zinc-900 hover:bg-brand-gold border border-zinc-700 hover:border-brand-gold text-white hover:text-black font-display font-bold uppercase tracking-wider py-3.5 px-5 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <span>Checkout with Card</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <!-- 6. Virtual Training -->
+        <div class="bg-brand-card border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between card-hover">
+          <div>
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+              <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Virtual Training</h3>
+            </div>
+            <div class="flex items-baseline gap-1 mb-4">
+              <span class="font-display font-bold text-4xl text-white">$45</span>
+              <span class="text-sm font-semibold text-zinc-400">/ session</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-6">
+              Remote frame-by-frame swing and fielding video analysis plus custom corrective drill prescriptions from anywhere.
+            </p>
+            <ul class="space-y-2.5 text-sm text-brand-silver mb-8">
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Side-by-side pro mechanical comparison</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Voiceover breakdown sent to your phone</li>
+              <li class="flex items-center gap-2.5"><span class="text-brand-lightGold font-bold">✓</span> Custom at-home drill checklist</li>
+            </ul>
+          </div>
+          <a href="https://buy.stripe.com/3cI4gA1MF21u1UT5lY6Vq05" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-zinc-900 hover:bg-brand-gold border border-zinc-700 hover:border-brand-gold text-white hover:text-black font-display font-bold uppercase tracking-wider py-3.5 px-5 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <span>Checkout with Card</span>
+            <span>→</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Event: MINI-CAMPS MONTHLY -->
+  <section id="camp" class="py-16 border-b border-zinc-800 bg-gradient-to-r from-brand-darkGold/25 via-brand-black to-brand-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-brand-card border border-brand-gold/50 rounded-2xl p-8 md:p-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+        <div class="space-y-3 max-w-2xl">
+          <span class="inline-block bg-brand-gold text-black font-display font-bold text-xs uppercase tracking-widest px-3 py-1 rounded">
+            Youth Development Series
+          </span>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl uppercase tracking-tight text-white">
+            MINI-CAMPS MONTHLY
+          </h2>
+          <p class="text-brand-silver text-sm sm:text-base leading-relaxed">
+            High-volume monthly skill clinics featuring intensive hitting reps, middle-infield footwork circuits, and competitive live challenges. Exact dates, times, and session details are shared directly upon registration.
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
+          <a href="https://buy.stripe.com/28EeVe3UNay00QP01E6Vq0a" target="_blank" rel="noopener noreferrer" class="bg-brand-gold hover:bg-brand-darkGold text-black font-display font-bold uppercase tracking-wider px-7 py-4 rounded-lg text-center transition-colors whitespace-nowrap">
+            Join Next Mini Camp →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule & Inquiry Form -->
+  <section id="inquiry" class="py-20 bg-brand-charcoal">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-brand-card border border-zinc-800 rounded-2xl p-8 sm:p-10 shadow-2xl">
+        <div class="text-center mb-8">
+          <span class="text-brand-lightGold font-display font-bold uppercase tracking-widest text-sm">Lock In Your Time Slot</span>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl uppercase tracking-tight mt-1 text-white">Session Scheduling &amp; Questions</h2>
+          <p class="text-sm text-zinc-400 mt-2">
+            Already completed checkout or want to confirm day/time availability first? Send your player details below and we will follow up with exact session times and details.
+          </p>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-5">
+          <input type="hidden" name="access_key" value="aee85ff8-7b49-476f-963b-cf48848b2fa" />
+          <input type="hidden" name="subject" value="New Coach Lu Baseball Training Inquiry" />
+
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-brand-silver mb-2">Parent / Guardian Name</label>
+              <input type="text" name="parent_name" required placeholder="Full Name" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-gold" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-brand-silver mb-2">Phone Number</label>
+              <input type="tel" name="phone" required placeholder="(555) 555-0199" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-gold" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-brand-silver mb-2">Email Address</label>
+              <input type="email" name="email" required placeholder="you@example.com" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-gold" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-brand-silver mb-2">Player Age &amp; Primary Position</label>
+              <input type="text" name="player_info" required placeholder="e.g., 12U / SS & 2B" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-gold" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-brand-silver mb-2">Selected Package</label>
+            <select name="package" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-gold">
+              <option value="Private 1-on-1 ($200/mo)">Private 1-on-1 ($200/mo)</option>
+              <option value="Sibling Package ($320/mo)">Sibling Package ($320/mo)</option>
+              <option value="Small Group 2-4 Players ($35)">Small Group 2–4 Players ($35)</option>
+              <option value="In-Home Personal Training ($75)">In-Home Personal Training ($75)</option>
+              <option value="Homeschool Daytime Pod ($25)">Homeschool Daytime Pod ($25)</option>
+              <option value="Virtual Training ($45)">Virtual Training ($45)</option>
+              <option value="Mini-Camps Monthly">Mini-Camps Monthly</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-brand-silver mb-2">Preferred Days &amp; Training Goals</label>
+            <textarea name="message" rows="3" placeholder="Let Coach Lu know if you already completed checkout, preferred days/times, and what your player wants to focus on..." class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-gold"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-brand-gold hover:bg-brand-darkGold text-black font-display font-bold uppercase tracking-wider py-4 rounded-lg transition-colors shadow-lg shadow-amber-900/30">
+            Submit Training Request
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-brand-black border-t border-zinc-800 py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <img src="coachlu.png" alt="Coach Lu Baseball Training" class="h-9 w-auto object-contain" />
+        <span class="font-display font-bold uppercase tracking-wider text-sm text-brand-silver">Coach Lu Baseball Training</span>
+      </div>
+      <p class="text-xs text-zinc-500">
+        © 2026 Coach Lu Baseball Training • All Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
