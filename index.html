@@ -246,7 +246,53 @@
 
   <!-- Training Packages with Direct Stripe Checkout Links -->
  <!DOCTYPE html>
-
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coach Lu Baseball Training | Private Hitting, Fielding & Youth Development</title>
+  <meta name="description" content="Elite private 1-on-1 hitting and fielding instruction, small group sessions, homeschool daytime pods, monthly Clinics, and virtual training with former High-A pro middle infielder Coach Lu Diaz." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Oswald', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              gold: '#D97706',
+              darkGold: '#B45309',
+              lightGold: '#F59E0B',
+              black: '#09090B',
+              charcoal: '#121215',
+              card: '#18181B',
+              silver: '#E4E4E7',
+              muted: '#A1A1AA'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #09090B;
+      color: #FFFFFF;
+    }
+    .metallic-text {
+      background: linear-gradient(180deg, #FFFFFF 0%, #E4E4E7 55%, #71717A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-glow {
+      box-shadow: 0 0 35px rgba(217, 119, 6, 0.28);
+    }
     .card-hover {
       transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     }
@@ -376,43 +422,7 @@
     </div>
   </section>
 
-  <!-- About Coach Lu -->
-  <section id="about" class="py-20 border-b border-zinc-800 bg-brand-black">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-12 gap-10 items-start">
-        <!-- Coach Portrait & Bio Summary -->
-        <div class="lg:col-span-5 space-y-5">
-          <div class="bg-brand-card border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
-            <div class="aspect-square w-full overflow-hidden bg-zinc-900">
-              <img
-                src="coachluhead.jpg"
-                alt="Coach Lu Diaz portrait"
-                class="w-full h-full object-cover object-top"
-              />
-            </div>
-            <div class="p-6 border-t border-zinc-800 space-y-2">
-              <div class="flex items-center justify-between gap-2">
-                <h3 class="font-display font-bold text-2xl uppercase tracking-wide text-white">Coach Lu Diaz</h3>
-                <span class="text-[11px] font-display font-bold uppercase tracking-widest px-2.5 py-1 rounded bg-brand-gold/15 text-brand-lightGold border border-brand-gold/40">
-                  Head Instructor
-                </span>
-              </div>
-              <p class="text-xs uppercase tracking-widest text-brand-silver font-semibold">
-                Former High-A Pro Middle Infielder • 2B Specialist
-              </p>
-            </div>
-          </div>
 
-          <div class="space-y-3">
-            <span class="text-brand-lightGold font-display font-bold uppercase tracking-widest text-sm">Coach Bio</span>
-            <h2 class="font-display font-bold text-4xl sm:text-5xl uppercase tracking-tight leading-none">
-              Built From <span class="metallic-text">Pro Experience</span>
-            </h2>
-            <p class="text-zinc-400 leading-relaxed text-sm sm:text-base">
-              Coach Lu brings authentic pro-level infield instincts, high-rep discipline, and modern hitting mechanics to every athlete he trains, helping players sharpen their swing and defensive consistency.
-            </p>
-          </div>
-        </div>
 
         <!-- Credentials & Coaching Highlights -->
         <div class="lg:col-span-7 grid sm:grid-cols-2 gap-5">
